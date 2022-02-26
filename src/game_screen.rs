@@ -87,7 +87,6 @@ pub fn frame(ctx: &egui::Context, turns: &mut u8, winner: &mut Square, spacing: 
                                     text = RichText::new("Y").color(Color32::WHITE);
                                     enabled = false
                                 }
-                                _ => panic!("Invalid button state"),
                             };
                             if *winner != Square::Blank || *turns == 9 {
                                 enabled = false;

@@ -2,9 +2,6 @@
 use eframe::{egui, epi};
 use std::cmp::PartialEq;
 use std::marker::Copy;
-use egui::{
-    Color32,RichText, TextureId,
-};
 use crate::game_screen;
 
 /// We derive Deserialize/Serialize so we can persist app state on shutdown.
